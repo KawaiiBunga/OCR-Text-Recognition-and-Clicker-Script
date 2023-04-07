@@ -15,7 +15,7 @@ from PIL import ImageGrab
 # The First # in (x,x) with your mouse positioned on the left of where you want text read from
 left = 1240 
 
-# The Second # in (x,x) with your mouse positioned on the left of where you want text read from
+# The Second # in (x,x) with your mouse positioned on the bottom of where you want text read from
 top = 165 
 
 # Start from the first # in (x,x) on the right side of the area you want text read from and write that number down

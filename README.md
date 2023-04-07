@@ -1,4 +1,6 @@
 # OCR-Text-Recognition-and-Clicker-Script
+![image](https://user-images.githubusercontent.com/107073565/230533576-e0615cdd-bde9-4cc9-a2ba-4f9de5236ca5.png)
+
 This Python script uses Tesseract OCR to extract text from a specific area of the screen and clicks on a designated position depending on the extracted text. This script is designed to automate clicking actions based on specific text patterns.
 
 ## Getting Started -
@@ -45,10 +47,21 @@ To configure the script, open the ```click.py``` file and edit the values in the
 * ```wait_time```: the delay before clicking
 
 ### Running the Script:
-To run the script, open the command prompt or terminal, navigate to the directory where the ocr_clicker.py file is located, and run the command:
+To run the script, open the command prompt or terminal, navigate to the directory where the click.py file is located, and run the command:
 ```python click.py```
 
-The script will initialize and wait for you to press the toggle_key to start. Once the script is running, it will continuously search for the specified text patterns in the specified area of the screen. If the script detects the text, it will click on the designated position.
+The script will initialize and wait for you to press the toggle_key to start. 
+
+![image](https://user-images.githubusercontent.com/107073565/230533457-6eec96fd-d8f3-45cd-b8b5-884b2de42942.png)
+
+Once the script is running, it will continuously search for the specified text patterns in the specified area of the screen every so seconds that you set in the config (Default 5, I reccomend not going under 2 or 3 as it will get hard to stop the script). If the script detects the text, it will click on the designated position.
+
+![image](https://user-images.githubusercontent.com/107073565/230533844-c2671f16-ffd4-4e99-a871-227cf869fc34.png)
+![image](https://user-images.githubusercontent.com/107073565/230533576-e0615cdd-bde9-4cc9-a2ba-4f9de5236ca5.png)
+![image](https://user-images.githubusercontent.com/107073565/230533863-3b58807e-49b4-4762-956f-8d8fd7a8afce.png)
+![image](https://user-images.githubusercontent.com/107073565/230533985-984ec2ec-bad4-49e4-bd60-2849126ec74c.png)
+
+
 
 To stop the script, press the toggle_key again, or press ctrl+c at anytime.
 

@@ -17,17 +17,10 @@ Before using this script, you need to have Python 3 installed on your computer. 
 pip install pyautogui pytesseract keyboard Pillow
 ```
 
-#### Install Tesseract OCR by running the appropriate command for your operating system:
+#### Install Tesseract OCR:
 
-##### * For Windows: You can download the installer from the Tesseract GitHub page (https://github.com/UB-Mannheim/tesseract/wiki) and follow the installation instructions.
+##### * This script is designed to work with **Windows**: You can download the installer from the Tesseract GitHub page (https://github.com/UB-Mannheim/tesseract/wiki) and follow the installation instructions. Please install in the default directory
 
-##### * For macOS: You can install Tesseract OCR using Homebrew by running the following command in the terminal:
-
-```brew install tesseract```
-
-##### * For Linux: You can install Tesseract OCR using your distribution's package manager. For example, on Ubuntu or Debian, you can run the following command:
-
-```sudo apt-get install tesseract-ocr```
 
 
 ## Installation -

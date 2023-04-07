@@ -11,7 +11,7 @@ Before using this script, you need to have Python 3 installed on your computer. 
 * ```pytesseract```: used for OCR text recognition
 * ```keyboard```: used for detecting keyboard inputs
 * ```Pillow```: used for image processing
-* * The appropriate Tesseract OCT for your OS
+* The appropriate Tesseract OCT for your OS
 
 #### You can install the python packages using pip:
 
